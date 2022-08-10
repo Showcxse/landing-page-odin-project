@@ -6,31 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Landing Page</title>
 </head>
 
 <body>
     <header>
         <div class="header-left">
-            <p class="logo"><b>
-                LOGO</b>
-            </p>
+            <a class="logo" href=""><i class="fa-solid fa-football"></i>
+                <b>
+                FF 2022</b>
+            </a>
         </div>
         <div class="header-right">
             <ul>
-                <li><a href="">header link one</a></li>
-                <li><a href="">header link two</a></li>
-                <li><a href="">header link three</a></li>
+                <li><a href="#info">2022 Rankings</a></li>
+                <li><a href="#quote-section">Reviews</a></li>
+                <li><a href="#sign-up">Sign up</a></li>
             </ul>
         </div>
     </header>
     <section id="hero">
         <div class="hero-intro">
             <div class="hero-text">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes under
-                the main title. It's a smaller font and the color
-                is lower contrast.</p>
+            <h1>Gain the edge over your leaguemates</h1>
+            <p>Tired of mediocrity? With our expert certified rankings,
+            your chances of winning skyrocket exponentially.</p>
             <button class="sign-up-btn">Sign up</button>
             </div>
            <div class="img">
@@ -39,44 +40,53 @@
         </div>
     </section>
     <section id="info">
-        <h2>Some random information</h2>
+        <div class="info-container">
+        <h2>League Winning Rankings (2022)</h2>
         <div class="card-container">
             <div class="info-card">
+                <a href="#info">
                 <img class="info-img" src="/images/infoimg1.jpg" alt="info-img">
-                <p>this is some subtext under an illustration
-                    or image</p>
+                <p>Standard Rankings</p>
+                </a>
             </div>
             <div class="info-card">
+                <a href="#info">
                 <img class="info-img" src="/images/infoimg2.jpg" alt="info-img">
-                <p>this is some subtext under an illustration
-                    or image</p>
+                <p>Half-PPR Rankings</p>
+                </a>
             </div>
             <div class="info-card">
+                <a href="#info">
                 <img class="info-img" src="/images/infoimg3.jpg" alt="info-img">
-                <p>this is some subtext under an illustration
-                    or image</p>
+                <p>Full-PPR Rankings</p>
+                </a>
             </div>
             <div class="info-card">
+                <a href="#info">
                 <img class="info-img" src="/images/infoimg4.jpg" alt="info-img">
-                <p>this is some subtext under an illustration
-                    or image</p>
+                <p>Superflex Rankings</p>
+                </a>
             </div>
+        </div>
         </div>
     </section>
     <section id="quote-section">
-        <p>This is an inspiring quote, or a testimonial from
-            a customer. Maybe it's just filling up space, or maybe
-            people will actually read it. Who knows? All I know is
-            that it looks nice.</p>
-        <p class="quote-source">- Henry Avery 1994</p>
+        <div class="quote-container">
+        <p class="quote">It is better to win your fantasy league
+        than lose your fantasy league. Winning is better than losing. Always (per my sources)
+        </p>
+        <p class="quote-source">- Adam Schefter</p>
+        </div>
     </section>
     <section id="sign-up">
+        <div class="sign-up-container">
         <div class="sign-up-text">
             <p><b>Call to action! It's time!</b></p>
             <p>Sign up for our product by
                 clicking that button right over there!</p>
         </div>
         <button class="sign-up-btn">Sign up</button>
+        </div> 
     </section>
     <footer>
         <p>Copyright <span>&copy;</span> The Odin Project</p>
